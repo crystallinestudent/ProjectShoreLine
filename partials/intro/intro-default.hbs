@@ -1,11 +1,10 @@
 <!-- Main Page Intro -->
+{{>header/header-default}}
 <!-- Banner -->
-<section id="banner">
-    <h2>I'm Baseline for Ghost</h2>
-    <p>A simple starting point for projects based on Skel and Ghost.</p>
+<section id="banner" class="home" style="{{#if @blog.cover}}background:-webkit-linear-gradient(rgba(155,155,155,0.65),rgba(155,155,155,0.65)), url({{@blog.cover}}); background:-linear-gradient(rgba(155,155,155,0.65),rgba(155,155,155,0.65)), url({{@blog.cover}});background-size:cover,cover;{{else}}background-color:#fff;{{/if}}">
+    <h2>{{@blog.title}}</h2>
+    <p>{{@blog.description}}</p>
     <ul class="actions">
-        <li><a href="#content" class="button special">Content</a></li>
-        <li><a href="#elements" class="button">Elements</a></li>
-        <li><a href="#grid" class="button alt">Grid System</a></li>
+        <li><a href="#main" class="button alt circle smooth icon fa-angle-down"></a></li>
     </ul>
 </section>

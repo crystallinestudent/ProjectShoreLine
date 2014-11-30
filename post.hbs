@@ -2,25 +2,35 @@
 
 {{#post}}
 
-{{>intro/intro-post}}
+{{>intro/intro-post-two}}
 
 <section id="main" class="container">
-        <div class="row uniform">
-            <article class="{{post_class}} single 10u$ -1u">
-                <div class="post-container">
-                    <section class="blog-content"><ul class="archiveTest"></ul>{{content}}</section>
-                </div>
+    <div class="row uniform">
+        <div class="post-container">
+            <header class="post-header">
+                <h2 class="post-title">{{title}}</h2>
+                <p class="post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+                {{>share}}
+            </header>
+            <hr/>
+            {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
+            <article class="{{post_class}} single 12u$">
+                <section class="post-content">{{content}}</section>
             </article>
-            <footer class="10u$ -1u">
+            <footer class="12u$">
+                <hr class="major" />
+                {{>author-box}}
+                <hr class="major" />
                 <div class="comment-area">
                     {{>comment-box}}
                 </div>
             </footer>
         </div>
+    </div>
 </section>
 
 <script>
-    var blog = $('.blog-content');
+    var blog = $('.post-content');
     crystalline.formatPost(blog);
 </script>
 {{/post}}

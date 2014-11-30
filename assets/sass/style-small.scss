@@ -12,7 +12,12 @@
 /* Banner */
 
 	#banner {
-		padding: 5em 2em 4em 2em;
+        &.alt{
+            padding:3em;
+        }
+        &.home{
+		  padding: 9em 4em;
+        }
 
 		h2 {
 			font-size: 2.25em;
@@ -22,6 +27,14 @@
 			font-size: 1.25em;
 		}
 	}
+
+/* Header */
+
+#header{
+    h1{
+        left:1.75em;
+    }
+}
 
 /* Main */
 
@@ -43,3 +56,26 @@
 			}
 		}
 	}
+
+/* Post */
+
+.post-container{
+    header{
+        h2 + p{
+            margin: 0 0 1em 0;
+            font-size:1em;
+        }
+        .icons{
+            display:block;
+            float:none;
+        }
+    }
+
+    article{
+        margin:2em 0 1em 0;
+    }
+}
+
+.post-content{
+    text-align:justify;
+}

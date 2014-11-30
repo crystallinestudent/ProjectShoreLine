@@ -9,7 +9,7 @@
 			// Global.
 				global: {
 					href: '/assets/css/style.css',
-					containers: 1400,
+					containers: 720,
 					grid: {
 						gutters: ['2em', 0]
 					}
@@ -19,14 +19,14 @@
 				xlarge: {
 					media: '(max-width: 1680px)',
 					href: '/assets/css/style-xlarge.css',
-					containers: 1200
+					containers: 720
 				},
 
 			// Large.
 				large: {
 					media: '(max-width: 1280px)',
 					href: '/assets/css/style-large.css',
-					containers: 960,
+					containers: 720,
 					grid: {
 						gutters: ['1.5em', 0]
 					},
@@ -39,7 +39,7 @@
 				medium: {
 					media: '(max-width: 980px)',
 					href: '/assets/css/style-medium.css',
-					containers: '90%',
+					containers: '75%',
 					grid: {
 						zoom: 2
 					}
@@ -83,8 +83,8 @@
 						hidden: true,
 						html: '<div data-action="moveElement" data-args="nav"></div>',
 						orientation: 'vertical',
-						position: 'top-left',
-						side: 'left',
+						position: 'top-right',
+						side: 'right',
 						width: 250
 					},
 
@@ -93,8 +93,8 @@
 						breakpoints: 'medium',
 						height: '4em',
 						html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
-						position: 'top-left',
-						side: 'top',
+						position: 'top-right',
+						side: 'right',
 						width: '6em'
 					}
 
@@ -104,7 +104,22 @@
 
 	$(function() {
 
-		// jQuery ready stuff.
+		// Waypoints
+
+        $(document).ready(function() {
+            $('.feature-image img').waypoint(function() {
+                $(this).addClass('active');
+            }, {
+                offset: '65%'
+            });
+        });
+
+        $(document).ready(function() {
+            $('.smooth').smoothScroll({
+                speed:1000,
+            });
+        });
+
 
 	});
 

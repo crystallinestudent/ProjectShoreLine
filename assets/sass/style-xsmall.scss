@@ -7,7 +7,12 @@
 
 	html, body {
 		min-width: 320px;
+        height:100%;
 	}
+
+    #skel-layers-wrapper{
+        height:100%;
+    }
 
 	body, input, select, textarea {
 		font-size: 12pt;
@@ -35,7 +40,6 @@
 
 					&.icon {
 						&:before {
-							margin-left: -2em;
 						}
 					}
 				}
@@ -66,4 +70,8 @@
 
 	#banner {
 		padding: 5em 2em 4em 2em;
+        &.home{
+            padding: 8em 2em 2em 2em;
+            height:100%;
+        }
 	}

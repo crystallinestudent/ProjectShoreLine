@@ -1,0 +1,17 @@
+{{! Widget with Author information }}
+<div class="post-author">
+    <div class="row uniform">
+        <div class="3u(1) 4u(3)">
+            <div class="author-image">
+                <img src="{{author.image}}" />
+            </div>
+        </div>
+        <div class="9u(1) 8u(3)">
+            <div class="author-bio">
+                <h4>{{author.name}}</h4>
+                <p>{{author.bio}}</p>
+                {{>social-icons}}
+            </div>
+        </div>
+    </div>
+</div>
