@@ -755,7 +755,6 @@
 	}
 
 /* Header */
-
 	//body {
 
 	#header {
@@ -811,8 +810,6 @@
 					a {
                         color: inherit;
 						@include vendor-property('transition', 'color #{$duration-transition} ease-in-out');
-
-                        height:1.25em;
 						display: inline-block;
 						text-decoration: none;
                         text-transform: uppercase;
