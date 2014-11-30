@@ -894,47 +894,53 @@
             padding:4em 0;
         }
 
-		h2 {
-			font-size: 3em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-            color:inherit;
-            letter-spacing: 0.125em;
-			padding: 0;
-            text-transform: uppercase;
-		}
+        .banner-intro{
+            position:relative;
+            z-index:1;
+            .banner-title {
+                font-size: 3em;
+                line-height: 1em;
+                margin: 0 0 0.5em 0;
+                color:inherit;
+                letter-spacing: 0.125em;
+                padding: 0;
+                text-transform: uppercase;
+            }
 
-		p {
-            font-family:$font-family-alt;
-            font-style:italic;
-			font-size: 1.25em;
-			margin-bottom: 1.75em;
-            max-width:500px;
-            margin-left:auto;
-            margin-right:auto;
+            .banner-description {
+                font-family:$font-family-alt;
+                font-style:italic;
+                font-size: 1.25em;
+                margin-bottom: 1.75em;
+                max-width:500px;
+                margin-left:auto;
+                margin-right:auto;
 
-            a{
-                color:$color-accent-fg-bold;
-                text-decoration:none;
+                a{
+                    color:$color-accent-fg-bold;
+                    text-decoration:none;
+                }
             }
         }
 
         &:after{
-            @include vendor-property('transition', 'visibility #{$duration-transition*4} ease-in-out');
             content:'';
-            background-color:#fff;
+            @include vendor-property('transition', 'background #{$duration-transition*6} ease-in-out');
+            background:rgba(155,155,155,0.65);
+            background-size:cover;
             position:absolute;
-            visibility:hidden;
             top:0;
             left:0;
+            opacity: 1;
             height:100%;
             width:100%;
+            z-index:0;
         }
 	}
 
 body.loading{
-    #banner.fadeIn:after{
-        visibility: visible;
+    #banner:after{
+        background:rgba(155,155,155,0.95);
     }
 }
 

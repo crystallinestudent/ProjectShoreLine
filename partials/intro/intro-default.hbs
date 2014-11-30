@@ -1,10 +1,12 @@
 <!-- Main Page Intro -->
 {{>header/header-default}}
 <!-- Banner -->
-<section id="banner" class="home" style="{{#if @blog.cover}}background:-webkit-linear-gradient(rgba(155,155,155,0.65),rgba(155,155,155,0.65)), url({{@blog.cover}}); background:-linear-gradient(rgba(155,155,155,0.65),rgba(155,155,155,0.65)), url({{@blog.cover}});background-size:cover,cover;{{else}}background-color:#fff;{{/if}}">
-    <h2>{{@blog.title}}</h2>
-    <p>{{@blog.description}}</p>
-    <ul class="actions">
-        <li><a href="#main" class="button alt circle smooth icon fa-angle-down"></a></li>
-    </ul>
+<section id="banner" class="home" style="{{#if @blog.cover}}background:url({{@blog.cover}});background-size:cover,cover;{{else}}background-color:#fff;{{/if}}">
+    <div class="banner-intro">
+        <h2 class="banner-title">{{@blog.title}}</h2>
+        <p class="banner-description">{{@blog.description}}</p>
+        <ul class="actions">
+            <li><a href="#main" class="button alt circle smooth icon fa-angle-down"></a></li>
+        </ul>
+    </div>
 </section>

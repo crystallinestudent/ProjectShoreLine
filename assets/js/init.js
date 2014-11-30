@@ -104,6 +104,25 @@
 
 	$(function() {
 
+        var	$window = $(window),
+            $banner = $('#banner'),
+			$body = $('body');
+
+        $body.addClass('loading');
+
+        // Banner Intro
+        $('.banner-title').addClass('delay-05s');
+        $('.banner-description').addClass('delay-1s');
+        $('.banner-intro .actions').addClass('delay-05s');
+
+        $window.load(function(){
+            $body.removeClass('loading');
+
+            $('.banner-title').addClass('animated fadeInDown');
+            $('.banner-description').addClass('animated fadeInUp');
+            $('.banner-intro .actions').addClass('animated fadeIn');
+        });
+
 		// Waypoints
 
         $(document).ready(function() {
