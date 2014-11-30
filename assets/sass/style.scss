@@ -1,5 +1,6 @@
 @import 'vars';
 @import 'mixins';
+@import 'animations';
 @import 'font-awesome.min.css';
 
 /* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
@@ -883,6 +884,7 @@
 		padding: 8em 0;
 		text-align: center;
         color:$color-accent-fg-bold;
+        position:relative;
 
 		:last-child {
 			margin-bottom: 0;
@@ -916,7 +918,25 @@
                 text-decoration:none;
             }
         }
+
+        &:after{
+            @include vendor-property('transition', 'visibility #{$duration-transition*4} ease-in-out');
+            content:'';
+            background-color:#fff;
+            position:absolute;
+            visibility:hidden;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+        }
 	}
+
+body.loading{
+    #banner.fadeIn:after{
+        visibility: visible;
+    }
+}
 
 /* Main */
 
