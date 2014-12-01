@@ -9,17 +9,21 @@ body, input, select, textarea {
 #skel-layers-wrapper {
   padding-top: 0; }
 
-/* line 20, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+/* line 21, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
 #header nav {
   display: none; }
 
+/* line 28, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+body.home-template #header h1 {
+  display: none; }
+
 /* Banner */
-/* line 27, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+/* line 36, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
 #banner {
   padding: 9em 2em; }
 
 /* Layers */
-/* line 34, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+/* line 43, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
 #navButton .toggle {
   text-decoration: none;
   height: 100%;
@@ -36,7 +40,7 @@ body, input, select, textarea {
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
-  /* line 42, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+  /* line 51, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
   #navButton .toggle:before {
     background: #333;
     border-radius: 4px;
@@ -51,26 +55,26 @@ body, input, select, textarea {
     top: 0.5em;
     width: 3.5em; }
 
-/* line 59, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+/* line 68, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
 #navPanel {
   background: #333;
   color: #fff; }
-  /* line 63, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+  /* line 72, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
   #navPanel nav {
     padding: 0.5em 1em; }
-    /* line 66, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+    /* line 75, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
     #navPanel nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
       font-family: 'Arimo', Arial, Helvetica, sans-serif; }
-      /* line 72, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+      /* line 81, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
       #navPanel nav ul li {
         padding: 0; }
-        /* line 76, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+        /* line 85, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
         #navPanel nav ul li:first-child a:not(.button), #navPanel nav ul li:first-child span:not(.button) {
           border-top: 0; }
-        /* line 81, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+        /* line 90, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
         #navPanel nav ul li a:not(.button), #navPanel nav ul li span:not(.button) {
           border-top: solid 1px #555;
           color: #fff;
@@ -79,7 +83,7 @@ body, input, select, textarea {
           text-decoration: none;
           text-transform: uppercase;
           letter-spacing: 0.075em; }
-    /* line 93, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
+    /* line 102, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-medium.scss */
     #navPanel nav .button {
       width: 100%; }
 

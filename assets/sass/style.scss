@@ -898,6 +898,7 @@
             position:relative;
             z-index:1;
             .banner-title {
+                opacity:0;
                 font-size: 3em;
                 line-height: 1em;
                 margin: 0 0 0.5em 0;
@@ -908,9 +909,10 @@
             }
 
             .banner-description {
+                opacity:0;
                 font-family:$font-family-alt;
                 font-style:italic;
-                font-size: 1.25em;
+                font-size: 1em;
                 margin-bottom: 1.75em;
                 max-width:500px;
                 margin-left:auto;
@@ -921,26 +923,33 @@
                     text-decoration:none;
                 }
             }
-        }
 
-        &:after{
-            content:'';
-            @include vendor-property('transition', 'background #{$duration-transition*6} ease-in-out');
-            background:rgba(155,155,155,0.65);
-            background-size:cover;
-            position:absolute;
-            top:0;
-            left:0;
-            opacity: 1;
-            height:100%;
-            width:100%;
-            z-index:0;
+            .actions{
+                opacity:0;
+            }
+        }
+        &.home{
+
+            &:after{
+                content:'';
+                @include vendor-property('transition', 'background #{$duration-transition*6} ease-in-out');
+                background:rgba(155,155,155,0.65);
+                background-size:cover;
+                position:absolute;
+                top:0;
+                left:0;
+                opacity: 1;
+                height:100%;
+                width:100%;
+                z-index:0;
+            }
+
         }
 	}
 
 body.loading{
-    #banner:after{
-        background:rgba(155,155,155,0.95);
+    #banner.home:after{
+        background:rgba(155,155,155,1);
     }
 }
 
@@ -1102,7 +1111,7 @@ body.loading{
     p{
         font-family:$font-family-alt;
         font-size:1.15em;
-        line-height:1.65em;
+        line-height:1.95em;
     }
 
     img{

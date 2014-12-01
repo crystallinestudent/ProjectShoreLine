@@ -19,20 +19,24 @@ body, input, select, textarea {
   font-size: 1.25em; }
 
 /* Header */
-/* line 34, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
-#header h1 {
-  left: 1.75em; }
+/* line 33, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+#header {
+  height: 3.5em;
+  line-height: 3.75em; }
+  /* line 36, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+  #header h1 {
+    left: 1em; }
 
 /* Main */
-/* line 41, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 43, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #main {
   padding: 2em 0; }
 
 /* Footer */
-/* line 47, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 49, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #footer {
   padding: 2em 0; }
-  /* line 51, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+  /* line 53, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
   #footer .copyright li {
     border-left: 0;
     margin-left: 0;
@@ -40,19 +44,19 @@ body, input, select, textarea {
     display: block; }
 
 /* Post */
-/* line 64, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 66, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container header h2 + p {
   margin: 0 0 1em 0;
   font-size: 1em; }
-/* line 68, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 70, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container header .icons {
   display: block;
   float: none; }
-/* line 74, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 76, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container article {
   margin: 2em 0 1em 0; }
 
-/* line 79, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 81, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-content {
   text-align: justify; }
 

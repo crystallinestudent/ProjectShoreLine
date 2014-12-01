@@ -16,11 +16,20 @@
 		padding-top: 0;
 	}
 
+
 	#header {
         nav{
 		display: none;
         }
 	}
+
+    body.home-template{
+        #header{
+            h1{
+                display:none;
+            }
+        }
+    }
 
 /* Banner */
 
