@@ -4112,8 +4112,8 @@ body.loading #banner.home:after {
 /* line 1111, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content p {
   font-family: 'Average', Georgia, serif;
-  font-size: 1.15em;
-  line-height: 1.95em; }
+  font-size: 1em;
+  line-height: 2em; }
 /* line 1117, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content img {
   max-width: 100%; }
