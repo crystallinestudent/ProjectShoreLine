@@ -3214,7 +3214,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-weight: bold;
-  font-family: 'Arimo', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   line-height: 1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
@@ -3758,7 +3758,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
   cursor: pointer;
   display: inline-block;
   font-weight: bold;
-  font-family: 'Arimo', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   height: 2.85em;
   line-height: 2.95em;
   padding: 0 1.5em;
@@ -3824,7 +3824,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
   color: #fff;
   cursor: default;
   left: 0;
-  font-family: 'Arimo', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   height: 4.25em;
   line-height: 4.25em;
   position: absolute;
