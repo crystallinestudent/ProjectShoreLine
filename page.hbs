@@ -10,11 +10,16 @@
 
 <section id="main" class="container">
     <div class="row uniform">
-        <article class="{{post_class}} page-content 12u">
-            <section class="page-content">
-                {{content}}
-            </section>
-        </article>
+        <div class="post-container">
+            <header class="post-header">
+                <h2 class="post-title">{{title}}</h2>
+            </header>
+            <hr/>
+            {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
+            <article class="{{post_class}} single 12u$">
+                <section class="post-content">{{content}}</section>
+            </article>
+        </div>
     </div>
 </section>
 
