@@ -129,6 +129,7 @@
                 $poptroxElements = $('.poptrox');
                 $poptroxElements.poptrox({
                     popupPadding:0,
+                    usePopupDefaultStyling:false,
                 });
             }
         }

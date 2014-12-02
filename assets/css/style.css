@@ -4140,5 +4140,33 @@ body.loading #banner.home:after {
   height: auto;
   border-radius: 4px; }
 
+/* Poptrox */
+/* line 1161, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+.poptrox-popup .closer {
+  -moz-transition: opacity 0.15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  -o-transition: opacity 0.15s ease-in-out;
+  -ms-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  position: absolute;
+  text-decoration: none;
+  outline: 0px;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  background: #333;
+  opacity: 0.75; }
+  /* line 1181, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  .poptrox-popup .closer:hover {
+    opacity: 0.85; }
 
 /*# sourceMappingURL=style.css.map */
