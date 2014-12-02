@@ -102,6 +102,38 @@
 		}
 	});
 
+    var crystalline = {
+        formatPost:function($postContent){
+            if($postContent.length){
+                /* YouTube */
+                /* Must be in http://youtu.be/xxxxxxxx format found in Share section */
+                if( $postContent.has('a[href*="youtu.be"]').length ){
+                    var $video = $postContent.find('a[href*="youtu.be"]');
+                    $video.attr('data-poptrox', 'youtube,800x480').wrap('<span class="poptrox"></span>');
+                }
+
+                /* Vimeo */
+                /* Must be in http://vimeo.com/xxxxxxxx format found in Share section */
+                if( $postContent.has('a[href*="vimeo.com"]').length ){
+                    var $video = $postContent.find('a[href*="vimeo.com"]');
+                    $video.attr('data-poptrox', 'vimeo,800x480').wrap('<span class="poptrox"></span>');
+                }
+
+                /* Soundcloud */
+                /* Must be in http://api.soundcloud.com/tracks/xxxxxxxx format found in Embed section */
+                if( $postContent.has('a[href*="api.soundcloud.com"]').length ){
+                    var $video = $postContent.find('a[href*="api.soundcloud.com"]');
+                    $video.attr('data-poptrox', 'soundcloud').wrap('<span class="poptrox"></span>');
+                }
+
+                $poptroxElements = $('.poptrox');
+                $poptroxElements.poptrox({
+                    popupPadding:0,
+                });
+            }
+        }
+    };
+
 	$(function() {
 
         var	$window = $(window),
@@ -122,6 +154,10 @@
             $('.banner-description').addClass('animated fadeInUp');
             $('.banner-intro .actions').addClass('animated fadeIn');
         });
+
+        // Format Blog Posts/Pages
+        var blog = $('.post-content');
+        crystalline.formatPost(blog);
 
 		// Waypoints
 
