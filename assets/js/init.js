@@ -127,9 +127,20 @@
                 }
 
                 $poptroxElements = $('.poptrox');
+
+                var windowMargin;
+
+                if (skel.isActive('xsmall')) {
+                    windowMargin = 5;
+                }
+                else{
+                    windowMargin = 25;
+                }
+
                 $poptroxElements.poptrox({
                     popupPadding:0,
                     usePopupDefaultStyling:false,
+                    windowMargin:windowMargin,
                 });
             }
         }
