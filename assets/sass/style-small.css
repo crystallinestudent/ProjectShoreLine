@@ -46,17 +46,16 @@ body, input, select, textarea {
 /* Post */
 /* line 66, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container header h2 + p {
-  margin: 0 0 1em 0;
-  font-size: 1em; }
-/* line 70, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+  margin: 0 0 1em 0; }
+/* line 69, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container header .icons {
   display: block;
   float: none; }
-/* line 76, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 75, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container article {
   margin: 2em 0 1em 0; }
 
-/* line 81, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 80, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-content {
   text-align: justify; }
 
