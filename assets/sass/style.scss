@@ -48,7 +48,7 @@
 		font-weight: $font-weight-bold;
         font-family: $font-family;
 		line-height: 1em;
-		margin: 0 0 ($size-element-margin * 0.5) 0;
+		margin: 0 0 ($size-element-margin * 0.25) 0;
         text-transform:uppercase;
         letter-spacing: 0.075em;
 
@@ -58,28 +58,33 @@
 		}
 	}
 
+    h1{
+        font-size:2em;
+        line-height:1.5em;
+    }
+
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.35em;
 		line-height: 1.5em;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.05em;
 		line-height: 1.5em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.9em;
 		line-height: 1.5em;
 	}
 
@@ -776,6 +781,7 @@
 			color: #fff;
 			height: inherit;
 			left: 2.75em;
+            font-size:1em;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -1036,11 +1042,11 @@ body.loading{
     max-width:100%;
     header{
 
-        h2{
+        h1{
             margin:0 0 0.25em 0;
         }
 
-        h2 + p{
+        h1 + p{
             font-size:1.15em;
             margin-bottom:0;
             display:inline-block;
@@ -1064,6 +1070,7 @@ body.loading{
 /* Read More */
 
 .read-more{
+    font-size:1.15em;
 }
 
 /* Pagination */
@@ -1109,6 +1116,11 @@ body.loading{
 }
 
 .post-content{
+
+    h1,h2,h3,h4,h5,h6{
+        margin-top:$size-element-margin;
+    }
+
     p{
         font-family:$font-family-alt;
         line-height:2em;
