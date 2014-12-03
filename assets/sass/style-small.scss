@@ -6,12 +6,19 @@
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 12pt;
+		font-size: 13pt;
 	}
 
 /* Banner */
 
 	#banner {
+
+        .banner-intro{
+            .banner-title{
+                font-size:2.5em;
+            }
+        }
+
         &.alt{
             padding:2em;
         }
@@ -63,7 +70,7 @@
 
 .post-container{
     header{
-        h2 + p{
+        h1 + p{
             margin: 0 0 1em 0;
         }
         .icons{

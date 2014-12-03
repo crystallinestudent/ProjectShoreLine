@@ -39,7 +39,6 @@
 
 	p {
 		margin: 0 0 ($size-element-margin * 0.5) 0;
-        font-size:1.15em;
         letter-spacing: 0.015em;
 	}
 
@@ -464,11 +463,15 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 $size-element-margin 0;
+		margin: 0 0 ($size-element-margin * 0.5) 0;
 		padding-left: 1em;
 
 		li {
 			padding-left: 0.5em;
+
+            >ul{
+                margin:0;
+            }
 		}
 
 		&.alt {
@@ -789,10 +792,6 @@
 			top: 0;
             letter-spacing: 0.125em;
             text-transform: uppercase;
-
-			a {
-				font-size: 1.25em;
-			}
 		}
 
 		nav {
@@ -802,7 +801,7 @@
 			right: 2.75em;
 			top: 0;
 			vertical-align: middle;
-            font-size:0.9em;
+            font-size:0.8em;
 
 			> ul {
 				list-style: none;
@@ -1047,7 +1046,6 @@ body.loading{
         }
 
         h1 + p{
-            font-size:1.15em;
             margin-bottom:0;
             display:inline-block;
         }
@@ -1070,7 +1068,6 @@ body.loading{
 /* Read More */
 
 .read-more{
-    font-size:1.15em;
 }
 
 /* Pagination */
@@ -1124,6 +1121,15 @@ body.loading{
     p{
         font-family:$font-family-alt;
         line-height:2em;
+    }
+
+    li{
+        line-height:1.5em;
+    }
+
+    input,select,textarea{
+        font-family: $font-family;
+        font-size:inherit;
     }
 
     img{

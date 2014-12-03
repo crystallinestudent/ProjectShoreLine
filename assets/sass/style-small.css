@@ -2,41 +2,44 @@
 /* Basic */
 /* line 8, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 body, input, select, textarea {
-  font-size: 12pt; }
+  font-size: 13pt; }
 
 /* Banner */
-/* line 15, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 17, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+#banner .banner-intro .banner-title {
+  font-size: 2.5em; }
+/* line 22, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #banner.alt {
   padding: 2em; }
-/* line 18, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 25, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #banner.home {
   padding: 9em 4em; }
-/* line 22, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 29, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #banner h2 {
   font-size: 2.25em; }
-/* line 26, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 33, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #banner p {
   font-size: 1.25em; }
 
 /* Header */
-/* line 33, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 40, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #header {
   height: 3.5em;
   line-height: 3.75em; }
-  /* line 36, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+  /* line 43, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
   #header h1 {
     left: 1em; }
 
 /* Main */
-/* line 43, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 50, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #main {
   padding: 2em 0; }
 
 /* Footer */
-/* line 49, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 56, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 #footer {
   padding: 2em 0; }
-  /* line 53, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+  /* line 60, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
   #footer .copyright li {
     border-left: 0;
     margin-left: 0;
@@ -44,18 +47,18 @@ body, input, select, textarea {
     display: block; }
 
 /* Post */
-/* line 66, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
-.post-container header h2 + p {
+/* line 73, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+.post-container header h1 + p {
   margin: 0 0 1em 0; }
-/* line 69, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 76, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container header .icons {
   display: block;
   float: none; }
-/* line 75, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 82, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-container article {
   margin: 2em 0 1em 0; }
 
-/* line 80, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
+/* line 87, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-small.scss */
 .post-content {
   text-align: justify; }
 
