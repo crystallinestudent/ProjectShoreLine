@@ -4151,7 +4151,7 @@ body.loading #banner.home:after {
 
 /* line 1165, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .author-image img {
-  width: 100%;
+  max-width: 100px;
   height: auto;
   border-radius: 4px; }
 

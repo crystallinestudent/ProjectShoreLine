@@ -1163,7 +1163,7 @@ body.loading{
 
 .author-image{
     img{
-        width:100%;
+        max-width:100px;
         height:auto;
         border-radius:$size-border-radius;
     }
