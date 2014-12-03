@@ -39,6 +39,7 @@
 
 	p {
 		margin: 0 0 $size-element-margin 0;
+        font-size:1.15em;
         letter-spacing: 0.015em;
 	}
 
@@ -1110,7 +1111,6 @@ body.loading{
 .post-content{
     p{
         font-family:$font-family-alt;
-        font-size:1.15em;
         line-height:2em;
     }
 
