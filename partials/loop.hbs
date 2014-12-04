@@ -1,6 +1,27 @@
 {{! This is the post loop - each post will be output using this markup }}
-{{#foreach posts}}
 
+{{#foreach posts}}
+    {{#if featured}}
+        <section class="12u$ loop-excerpt">
+            <div class="post-container">
+            <header class="post-header">
+                <h1 class="post-title"><a href="{{url}}">{{title}}</a></h1>
+                <p class="post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+                {{>share}}
+            </header>
+            <hr class="minor" />
+            {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
+            <article class="post-content">
+                <p>{{excerpt words="60"}}...</p>
+            </article>
+            <a href="{{url}}" class="read-more">Read More »</a>
+            </div>
+        </section>
+    {{/if}}
+{{/foreach}}
+
+{{#foreach posts}}
+    {{#unless featured}}
     <section class="12u$ loop-excerpt">
         <div class="post-container">
         <header class="post-header">
@@ -16,6 +37,7 @@
         <a href="{{url}}" class="read-more">Read More »</a>
         </div>
     </section>
+    {{/unless}}
 {{/foreach}}
 
 <div class="12u">
