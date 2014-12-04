@@ -3901,51 +3901,52 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
           vertical-align: middle; }
   /* line 847, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #header.alt {
-    background: #333333; }
-    /* line 850, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    position: relative; }
+    /* line 851, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #header.alt h1 {
       position: inherit;
       float: left;
-      color: #ffffff; }
-    /* line 856, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+      color: #000; }
+    /* line 857, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #header.alt nav {
       position: inherit;
       float: right; }
-      /* line 861, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+      /* line 862, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
       #header.alt nav > ul > li a {
-        color: #ffffff; }
-      /* line 865, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+        color: #000; }
+      /* line 866, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
       #header.alt nav > ul > li .button {
-        background: #95a5a6;
+        background: #000;
         color: #ffffff; }
-  /* line 874, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 875, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #header .container {
     position: relative; }
-    /* line 877, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 878, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #header .container h1 {
       left: 0; }
-    /* line 881, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 882, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #header .container nav {
       right: 0; }
 
 /* Banner */
-/* line 889, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 890, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 #banner {
   padding: 8em 0;
   text-align: center;
   color: #ffffff;
   position: relative; }
-  /* line 895, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 896, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #banner :last-child {
     margin-bottom: 0; }
-  /* line 899, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 900, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #banner.alt {
     padding: 4em 0; }
-  /* line 903, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 904, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #banner .banner-intro {
     position: relative;
     z-index: 1; }
-    /* line 906, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 907, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #banner .banner-intro .banner-title {
       opacity: 0;
       font-size: 3em;
@@ -3955,7 +3956,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
       letter-spacing: 0.125em;
       padding: 0;
       text-transform: uppercase; }
-    /* line 917, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 918, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #banner .banner-intro .banner-description {
       opacity: 0;
       font-family: 'Average', Georgia, serif;
@@ -3965,14 +3966,14 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
       max-width: 500px;
       margin-left: auto;
       margin-right: auto; }
-      /* line 927, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+      /* line 928, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
       #banner .banner-intro .banner-description a {
         color: #ffffff;
         text-decoration: none; }
-    /* line 933, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 934, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #banner .banner-intro .actions {
       opacity: 0; }
-  /* line 939, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 940, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #banner.home:after {
     content: '';
     -moz-transition: background 1.2s ease-in-out;
@@ -3990,46 +3991,46 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     width: 100%;
     z-index: 0; }
 
-/* line 957, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 958, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 body.loading #banner.home:after {
   background: #9b9b9b; }
 
 /* Main */
-/* line 964, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 965, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 #main {
   padding: 4em 0; }
 
 /* Footer */
-/* line 970, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 971, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 #footer {
   padding: 4em 0;
   background-color: rgba(149, 165, 166, 0.075); }
-  /* line 974, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 975, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   #footer .copyright {
     color: #bbb;
     font-size: 0.9em;
     margin: 2em 0 0 0;
     padding: 0;
     text-align: center; }
-    /* line 981, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 982, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     #footer .copyright li {
       border-left: solid 1px rgba(144, 144, 144, 0.25);
       display: inline-block;
       list-style: none;
       margin-left: 1.5em;
       padding-left: 1.5em; }
-      /* line 988, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+      /* line 989, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
       #footer .copyright li:first-child {
         border-left: 0;
         margin-left: 0;
         padding-left: 0; }
 
 /* Grid Demo */
-/* line 999, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1000, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .grid-demo {
   display: block;
   margin: 0 0 2em 0; }
-  /* line 1003, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1004, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .grid-demo span {
     background: #f6f7f7;
     border-radius: 4px;
@@ -4039,43 +4040,43 @@ body.loading #banner.home:after {
     height: 2.75em;
     line-height: 2.75em;
     text-align: center; }
-  /* line 1016, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1017, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .grid-demo .row.flush > div span {
     border-radius: 0; }
-  /* line 1021, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1022, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .grid-demo .row.flush > div:first-child span {
     border-radius: 4px 0 0 4px; }
-  /* line 1027, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1028, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .grid-demo .row.flush > div:last-child span {
     border-radius: 0 4px 4px 0; }
 
 /* Ghost */
 /* Post */
-/* line 1040, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1041, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-container {
   max-width: 100%; }
-  /* line 1044, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1045, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .post-container header h1, .post-container .author-meta h1 {
     margin: 0 0 0.25em 0; }
-  /* line 1048, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1049, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .post-container header h1 + p, .post-container .author-meta h1 + p {
     margin-bottom: 0;
     display: inline-block; }
-  /* line 1053, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1054, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .post-container header .icons, .post-container .author-meta .icons {
     margin: 0;
     display: inline-block;
     float: right; }
-    /* line 1057, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 1058, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     .post-container header .icons a, .post-container .author-meta .icons a {
       color: #bbb; }
-  /* line 1063, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1064, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .post-container article {
     margin: 2em 0 1em 0; }
 
 /* Read More */
 /* Pagination */
-/* line 1074, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1075, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .pagination {
   width: 100%;
   padding: 1em 0;
@@ -4083,24 +4084,24 @@ body.loading #banner.home:after {
   border-bottom: solid 1px rgba(144, 144, 144, 0.25);
   text-align: center;
   position: relative; }
-  /* line 1082, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1083, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .pagination .older-posts, .pagination .newer-posts {
     position: absolute; }
-  /* line 1086, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1087, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .pagination .older-posts {
     right: 0; }
-  /* line 1090, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1091, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .pagination .newer-posts {
     left: 0; }
 
 /* Feature Image */
-/* line 1097, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1098, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .feature-image {
   width: 100%;
   max-height: 300px;
   overflow: hidden;
   display: block; }
-  /* line 1103, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1104, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .feature-image img {
     -moz-transition: opacity 0.8s ease-in-out;
     -webkit-transition: opacity 0.8s ease-in-out;
@@ -4110,53 +4111,53 @@ body.loading #banner.home:after {
     width: 100%;
     opacity: 0.75;
     height: auto; }
-    /* line 1109, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+    /* line 1110, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
     .feature-image img.active {
       opacity: 1; }
 
-/* line 1117, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1118, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   margin-top: 2em; }
-/* line 1121, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1122, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content p {
   font-family: 'Average', Georgia, serif;
   line-height: 2em; }
-/* line 1126, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1127, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content li {
   line-height: 1.5em; }
-/* line 1130, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1131, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content input, .post-content select, .post-content textarea {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: inherit; }
-/* line 1135, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1136, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content img {
   max-width: 100%; }
 
 /* Page */
-/* line 1143, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1144, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .page-header {
   text-align: center; }
-  /* line 1146, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1147, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .page-header h2 {
     font-size: 2.5em; }
 
 /* Author */
-/* line 1154, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1155, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .author-bio h2, .author-bio h3, .author-bio h4, .author-bio h5, .author-bio h6 {
   margin: 0 0 0.25em 0;
   text-transform: uppercase; }
-/* line 1159, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1160, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .author-bio p, .author-bio ul {
   margin: 0 0 0.75em 0; }
 
-/* line 1165, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1166, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .author-image img {
   max-width: 100px;
   height: auto;
   border-radius: 4px; }
 
 /* Poptrox */
-/* line 1180, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1181, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .poptrox-popup .closer {
   -moz-transition: opacity 0.15s ease-in-out;
   -webkit-transition: opacity 0.15s ease-in-out;
@@ -4180,7 +4181,7 @@ body.loading #banner.home:after {
   cursor: pointer;
   background: #333;
   opacity: 0.75; }
-  /* line 1200, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1201, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .poptrox-popup .closer:hover {
     opacity: 0.85; }
 

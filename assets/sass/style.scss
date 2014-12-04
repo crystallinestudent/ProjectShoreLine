@@ -845,12 +845,13 @@
 		}
 
         &.alt{
-            background:$color-accent2-bg;
+            border-bottom: solid $size-border-width $color-border;
+            position:relative;
 
             h1{
                 position:inherit;
                 float:left;
-                color:$color-accent-fg-bold;
+                color:$color-fg;
             }
 
             nav{
@@ -859,11 +860,11 @@
                 > ul{
                     > li{
                         a{
-                            color:$color-accent-fg-bold;
+                            color:$color-fg;
                         }
 
                         .button{
-                            background: $color-accent-bg;
+                            background: $color-fg;
                             color: $color-accent-fg-bold;
                         }
                     }
