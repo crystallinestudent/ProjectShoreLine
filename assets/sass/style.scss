@@ -792,6 +792,10 @@
 			top: 0;
             letter-spacing: 0.125em;
             text-transform: uppercase;
+
+            strong{
+                font-weight:400;
+            }
 		}
 
 		nav {
@@ -1116,7 +1120,7 @@ body.loading{
 .post-content{
 
     h1,h2,h3,h4,h5,h6{
-        margin-top:$size-element-margin;
+        margin-top:$size-element-margin/3;
     }
 
     p{
@@ -1203,7 +1207,3 @@ body.loading{
         }
     }
 }
-
-
-
-
