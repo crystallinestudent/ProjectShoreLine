@@ -1,22 +1,25 @@
 {{!< default}}
 
-{{>intro/intro-alt}}
+{{>intro/intro-page}}
 
 <section id="main" class="container">
 {{#author}}
-<div class="row uniform">
+<div class="row 200% uniform">
+    <div class="12u">
         {{#if image}}
-        <figure class="author-image 4u(1) 12u(3)">
+        <figure class="author-image 12u">
             <img src="{{image}}" alt="" />
         </figure>
         {{/if}}
-    <div class="author-meta 6u$(1) 12u(3)">
-        <h2 class="author-title">{{name}}</h2>
-        <p class="author-meta">
-            {{#if location}}<strong>Location: </strong>{{location}}<br/>{{/if}}
-            {{#if website}}<strong>Website: </strong><a href="{{website}}">{{website}}</a><br/>{{/if}}
-        </p>
-        <p class="author-bio">{{bio}}</p>
+        <div class="author-meta 12u">
+            <h2 class="author-title">{{name}}</h2>
+            <p class="author-meta">
+                {{#if location}}<strong>Location: </strong>{{location}}<br/>{{/if}}
+                {{#if website}}<strong>Website: </strong><a href="{{website}}">{{website}}</a><br/>{{/if}}
+            </p>
+            <p class="author-bio">{{bio}}</p>
+            <p>{{plural ../pagination.total empty='No posts...yet' singular='I have posted <strong>%</strong> story.' plural='I have posted <strong>%</strong> stories.'}}</p>
+        </div>
     </div>
 </div>
 {{/author}}

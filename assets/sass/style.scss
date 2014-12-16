@@ -1168,7 +1168,8 @@ body.loading{
 
 .author-image{
     img{
-        max-width:100px;
+        margin-bottom:$size-element-margin;
+        max-width:100%;
         height:auto;
         border-radius:$size-border-radius;
     }

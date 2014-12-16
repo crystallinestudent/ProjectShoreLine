@@ -4155,12 +4155,13 @@ body.loading #banner.home:after {
 
 /* line 1170, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .author-image img {
-  max-width: 100px;
+  margin-bottom: 2em;
+  max-width: 100%;
   height: auto;
   border-radius: 4px; }
 
 /* Poptrox */
-/* line 1185, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+/* line 1186, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .poptrox-popup .closer {
   -moz-transition: opacity 0.15s ease-in-out;
   -webkit-transition: opacity 0.15s ease-in-out;
@@ -4184,7 +4185,7 @@ body.loading #banner.home:after {
   cursor: pointer;
   background: #333;
   opacity: 0.75; }
-  /* line 1205, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
+  /* line 1206, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
   .poptrox-popup .closer:hover {
     opacity: 0.85; }
 
