@@ -12,7 +12,7 @@
                 <p class="post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
                 {{>share}}
             </header>
-            <hr/>
+            <hr class="minor" />
             {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
             <article class="{{post_class}} single 12u$">
                 <section class="post-content">{{content}}</section>
