@@ -1,0 +1,36 @@
+{{! Load all head scripts }}
+
+{{! HTML5Shiv if IE8 or lower }}
+<!--[if lte IE 8]><script src="{{asset "js/html5shiv.js"}}"></script><![endif]-->
+
+{{! jQuery via Google }}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+
+{{! SkelJS Framework and Skel Layers by n33co }}
+<script src="{{asset "js/skel.min.js"}}"></script>
+<script src="{{asset "js/skel-layers.min.js"}}"></script>
+
+{{! Poptrox by n33co }}
+<script src="{{asset "js/jquery.poptrox.min.js"}}"></script>
+
+{{! jQuery Waypoints by Caleb Troughton }}
+<script src="{{asset "js/waypoints.min.js"}}"></script>
+
+{{! Smooth Scroll by Karl Swedberg }}
+<script src="{{asset "js/jquery.smooth-scroll.js"}}"></script>
+
+{{! Used in various Javascript initializations }}
+<script type="text/javascript">
+    var themeUrl = '{{@blog.url}}';
+</script>
+
+{{! Main Javascript init file }}
+<script src="{{asset "js/init.js"}}"></script>
+
+
+{{! If Javascript isn't enabled }}
+<noscript>
+    <link rel="stylesheet" href="{{asset "css/skel.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/style.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/style-xlarge.css"}}" />
+</noscript>

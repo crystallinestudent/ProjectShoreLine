@@ -1,11 +1,12 @@
 {{!< default}}
 
+{{! This is the Home page. This is where your readers are directed from the start }}
+
+{{! Change to intro/intro-alt for minimal intro/header. }}
 {{>intro/intro-default}}
 
-{{! Main Content on Homepage }}
-
 <div id="main" class="container">
-    <!-- Intro -->
+    {{! The Post Loop }}
     <div class="row 200% uniform post-loop">
         {{> "loop"}}
     </div>

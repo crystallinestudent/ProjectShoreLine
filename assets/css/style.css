@@ -4120,7 +4120,7 @@ body.loading #banner.home:after {
 
 /* line 1122, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-  margin-top: 0.6666666667em; }
+  margin-top: 2em; }
 /* line 1126, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style.scss */
 .post-content p {
   font-family: 'Average', Georgia, serif;
