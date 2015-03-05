@@ -1,2 +1,12 @@
 <!-- Intro for Posts -->
-{{>header/header-alt}}
+{{>header/header-default}}
+<!-- Banner -->
+<section id="banner" class="home" style="{{#if image}}background:url({{image}});background-size:cover,cover;{{else}}background:url('assets/images/mystic-coast.jpg');background-size:cover,cover;{{/if}}">
+    <div class="banner-intro">
+        <h2 class="banner-title">{{title}}</h2>
+        <p class="banner-description post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+        <ul class="actions">
+            <li><a href="#main" class="button alt circle smooth icon fa-angle-down"></a></li>
+        </ul>
+    </div>
+</section>

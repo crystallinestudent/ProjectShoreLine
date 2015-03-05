@@ -7,10 +7,19 @@
             </div>
         </div>
         <div class="9u(1) 12u(4)">
-            <div class="author-bio">
-                <h4>{{author.name}}</h4>
+            <div class="author-bio row uniform 25%">
+                <div class="12u$">
+                    <h4>{{author.name}}</h4>
+                </div>
+                {{#if author.website}}
+                <div class="12u$">
+                    <p><a href="{{author.website}}">{{author.website}}</a></p>
+                </div>
+                {{/if}}
+                <div class="12u$">
+                    {{>social-icons}}
+                </div>
                 <p>{{author.bio}}</p>
-                {{>social-icons}}
             </div>
         </div>
     </div>

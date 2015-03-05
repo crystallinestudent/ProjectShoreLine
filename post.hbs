@@ -2,21 +2,17 @@
 
 {{#post}}
 
+{{! Change to intro-post-alt for minimal intro and header }}
 {{>intro/intro-post}}
 
 <section id="main" class="container">
     <div class="row uniform">
-        <div class="post-container">
-            <header class="post-header">
-                <h1 class="post-title">{{title}}</h1>
-                <p class="post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
-                {{>share}}
-            </header>
-            <hr class="minor" />
-            {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
+        <div class="post-container 12u$">
             <article class="{{post_class}} single 12u$">
                 <section class="post-content">{{content}}</section>
             </article>
+            <hr/>
+            {{>author-box}}
             <footer class="12u$">
                 <hr class="major" />
                 <div class="comment-area">

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Coastal Documentation</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+
+    <link href="http://fonts.googleapis.com/css?family=Average&subset=latin" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- SkelJS Framework by n33co -->
+    <script src="assets/js/skel.min.js"></script>
+
+    <!-- Smooth Scroll by Karl Swedberg -->
+    <script src="assets/js/jquery.smooth-scroll.js"></script>
+
+    <!-- Main JS Initialization -->
+    <script src="assets/js/init.js"></script>
+
+    <noscript>
+        <link rel="stylesheet" href="assets/css/skel.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style-xlarge.css" />
+    </noscript>
+
+</head>
+
+<body id="top">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <h1><a href="#">Coastal <strong>Documentation</strong></a></h1>
+        <nav id="nav">
+            <ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main" class="container">
+        <div class="row uniform">
+            <div class="post-container">
+                <header class="post-header">
+                    <h1 class="post-title">Documentation</h1>
+                </header>
+                <hr>
+
+                <article class="post page single 12u$">
+                    <section class="post-content">
+                        <h2 id="iinstallation">I. Installation</h2>
+
+                        <p>How do you have your Ghost server set up? If you don't have one set up, either contact me via <a href="http://crystalline-design.com">http://crystalline-design.com</a> for your own server or host directly through the Ghost team themselves at <a href="https://ghost.org">https://ghost.org</a>.</p>
+
+                        <p>Follow the instructions below if you are already set up with a server.</p>
+
+                        <h3 id="hostedwithghost">Hosted With Ghost</h3>
+
+                        <ul>
+                            <li>Go to your Ghost blog's dashboard and edit your blog.</li>
+                            <li>On the right, click <strong>Upload a Theme</strong> and select the <code>coastal.zip</code> file found within the master zip file.</li>
+                        </ul>
+
+                        <p>
+                            <img src="/content/images/2014/12/ghost-hosted-install-1.jpg" alt="">
+                        </p>
+
+                        <h3 id="selfhosted">Self-Hosted</h3>
+
+                        <ul>
+                            <li>Using your favorite FTP client (I use <a href="http://panic.com/transmit/">Transmit</a> for OS X) connect to your server and go to the <code>/content/themes</code> folder and extract the <code>coastal.zip</code> file there.</li>
+                            <li>Restart your Ghost service. <em>You or your host manager should know how to achieve this if you went the self-hosted route. If not,</em>  <code>service ghost restart</code>  <em>works</em>.</li>
+                        </ul>
+
+                        <p>
+                            <img src="/content/images/2014/12/ghost-install-2.jpg" alt="">
+                        </p>
+
+                        <ul>
+                            <li>Log in to your <strong>Ghost dashboard</strong>, go to <strong>Settings</strong>, scroll to the bottom and switch your theme to <strong>Coastal</strong> from the dropdown.</li>
+                        </ul>
+
+                        <h2 id="iithemesetup">II. Theme Setup</h2>
+
+                        <p>As Ghost is still in its beta stages, themes require you to get a little down and dirty to do more indepth editing.</p>
+
+                        <h3 id="downloadatexteditor">Download a Text Editor</h3>
+
+                        <p>To edit your theme you're going to need a good text editor. I recommend <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> for OS X and <a href="http://notepad-plus-plus.org">Notepad++</a> for Windows</p>
+
+                        <h3 id="changeyourfonts">Change Your Fonts</h3>
+
+                        <ul>
+                            <li>Open the file <code>partials/init/fonts.hbs</code>
+                            </li>
+                            <li>Coastal uses the Google Fonts <em>Average</em> and <em>Lato</em> by default. In this file, you will see two lines of code in this format:</li>
+                        </ul>
+
+                        <p><code>&lt;link href='//fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'&gt;</code>
+                        </p>
+
+                        <ul>
+                            <li>These lines of code can be found on each individual Google Font's page. To see a list of all Google Fonts <a href="http://www.google.com/fonts">click here</a>.</li>
+                        </ul>
+
+                        <h3 id="customizeyourmenu">Customize Your Menu</h3>
+
+                        <ul>
+                            <li>Open the file <code>partials/menu.hbs</code>
+                            </li>
+                            <li>You will see a block of code surrounded by <code>{{!Begin Menu Item}}</code> and <code>{{!End Menu Item}}</code>. I recommend ignoring <code>{{!Begin Home Item}}</code> to keep your Home link on your menu.</li>
+                            <li><strong>To change the existing menu item</strong>, in your code editor add each respective URL in the quotations of the <strong>href</strong> tag.</li>
+                            <li>For example, if I wanted to change it to my static Contact page with the URL of <code>myblog.com/contact</code>, the code would be changed to <code>&lt;a href="{{@blog.url}}/contact"&gt;Contact&lt;/a&gt;</code>
+                            </li>
+                            <li><strong>To create new menu items</strong>, copy everything in between the <code>{{!Begin Menu Item}}</code> and <code>{{!End Menu Item}}</code> and paste it beneath the existing one, then change the URL and display name as shown in the previous step.</li>
+                        </ul>
+
+                        <h3 id="addyoursocialnetworks">Add Your Social Networks</h3>
+
+                        <ul>
+                            <li>Open the file <code>partials/social-icons.hbs</code>
+                            </li>
+                            <li>Find the line of code for each social network you'd like to change, for example: <code>&lt;li&gt;&lt;a href="" target="_blank" title="Facebook" class="icon fa-facebook-square"&gt;&lt;/a&gt;&lt;/li&gt;</code>
+                            </li>
+                            <li>In your code editor add each respective URL in the quotations of the <strong>href</strong> tag.</li>
+                            <li>For example, if I wanted to add my Facebook URL, the above code would be changed to <code>&lt;li&gt;&lt;a href="http://facebook.com/crystallinedesignNC" target="_blank" title="Facebook" class="icon fa-facebook-square"&gt;&lt;/a&gt;&lt;/li&gt;</code>
+                            </li>
+                        </ul>
+
+                        <h3 id="alternatepostintro">Alternate Post Intro</h3>
+
+                        <p>As of version 1.0.2, the default Post intro is now very similar to the homepage. The minimal Post Intro is still available as the file <code>partials/intro/post-intro-alt.hbs</code>
+                        </p>
+
+                        <h4 id="switchtominimalintro">Switch to Minimal Intro</h4>
+
+                        <ul>
+                            <li>Open the file <code>post.hbs</code>
+                            </li>
+                            <li>Find the code line <code>{{&gt;intro/intro-post}}</code>
+                            </li>
+                            <li>Change this to <code>{{&gt;intro/intro-post-alt}}</code>
+                            </li>
+                            <li>To switch back, simply change it back to the original code.</li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
