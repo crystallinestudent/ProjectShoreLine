@@ -1,11 +1,10 @@
-/* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
 /* Basic */
-/* line 8, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-large.scss */
+/* line 6, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-large.scss */
 body, input, select, textarea {
   font-size: 14pt; }
 
 /* Banner */
-/* line 14, /Users/alex/Documents/ghost-basic/content/themes/coastal/assets/sass/style-large.scss */
+/* line 12, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-large.scss */
 #banner {
   padding: 12em 0; }
 
