@@ -1,7 +1,7 @@
 <!-- Intro for Posts -->
 {{>header/header-default}}
 <!-- Banner -->
-<section id="banner" class="home" style="{{#if image}}background:url({{image}});background-size:cover,cover;{{else}}background:url('assets/images/mystic-coast.jpg');background-size:cover,cover;{{/if}}">
+<section id="banner" class="home" style="{{#if image}}background:url({{image}});background-size:cover,cover;{{else}}background:url('{{asset "images/mystic-coast.jpg"}}');background-size:cover,cover;{{/if}}">
     <div class="banner-intro">
         <h2 class="banner-title">{{title}}</h2>
         <p class="banner-description post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
