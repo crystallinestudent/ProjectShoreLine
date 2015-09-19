@@ -1,44 +1,48 @@
 /* Basic */
-/* line 6, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 6, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 body, input, select, textarea {
   font-size: 13pt; }
 
 /* Banner */
-/* line 15, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 15, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #banner .banner-intro .banner-title {
   font-size: 2.5em; }
-/* line 20, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+
+/* line 20, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #banner.alt {
   padding: 2em; }
-/* line 23, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+
+/* line 23, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #banner.home {
   padding: 9em 4em; }
-/* line 27, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+
+/* line 27, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #banner h2 {
   font-size: 2.25em; }
-/* line 31, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+
+/* line 31, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #banner p {
   font-size: 1.25em; }
 
 /* Header */
-/* line 38, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 38, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #header {
   height: 3.5em;
   line-height: 3.75em; }
-  /* line 41, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+  /* line 41, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
   #header h1 {
     left: 1em; }
 
 /* Main */
-/* line 48, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 48, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #main {
   padding: 2em 0; }
 
 /* Footer */
-/* line 54, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 54, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 #footer {
   padding: 2em 0; }
-  /* line 58, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+  /* line 58, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
   #footer .copyright li {
     border-left: 0;
     margin-left: 0;
@@ -46,19 +50,24 @@ body, input, select, textarea {
     display: block; }
 
 /* Post */
-/* line 71, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 71, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 .post-container header h1 + p {
   margin: 0 0 1em 0; }
-/* line 74, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+
+/* line 74, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 .post-container header .icons {
   display: block;
   float: none; }
-/* line 80, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+
+/* line 80, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 .post-container article {
   margin: 2em 0 1em 0; }
 
-/* line 85, /Users/alex/Documents/ghost-v0.5.9/content/themes/coastal/assets/sass/style-small.scss */
+/* line 85, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
 .post-content {
   text-align: justify; }
+  /* line 87, /Users/ritcheya1/Documents/ghost/0.7.0/Ghost/content/themes/ProjectShoreLine/assets/sass/style-small.scss */
+  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    text-align: left; }
 
 /*# sourceMappingURL=style-small.css.map */
